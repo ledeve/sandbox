@@ -8,6 +8,8 @@ button.addEventListener('click', function() {
     const newColor = `rgb(${r}, ${g}, ${b})`;
     document.body.style.backgroundColor = newColor;
     const div = document.createElement("div");
+    div.classList.add('color-div');
+    console.log(div.className);
     const par = document.createElement("p");
     const text = document.createTextNode(newColor);
     par.appendChild(text);

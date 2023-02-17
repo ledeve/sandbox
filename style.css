@@ -1,3 +1,16 @@
 h1 {
     color: mediumaquamarine;
 }
+
+button {
+    margin: auto;
+}
+
+.color-div {
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    max-width: 300px;
+    /* display: inline; */
+}
